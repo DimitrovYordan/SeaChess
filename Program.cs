@@ -64,19 +64,6 @@ namespace SeaChess1._0._1
             {
                 if (count % 2 == 1)
                 {
-                    firstOrSecondPlayer = "first";
-                    Console.WriteLine("First player!");
-                    position = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
-                    CheckRangeOfNumbers(position, count, ref isRange);
->>>>>>> 90570dcb0e5b62dcf423cca1ca1df48e573ca030
-                    if (!isRange)
-                    {
-                        isRange = true;
-                        continue;
-                    }
-<<<<<<< HEAD
-
-=======
 >>>>>>> 90570dcb0e5b62dcf423cca1ca1df48e573ca030
                     count++;
                 }
